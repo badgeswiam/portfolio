@@ -1,0 +1,142 @@
+:root {
+  --color1: #17252a;
+  --color2: #100b10;
+  --color3: #0b090b;
+  --color4: #def2f1;
+  --color5: #feffff;
+}
+
+.scroll-element {
+  scroll-margin: 30px 0 0 30px;
+}
+
+@media only screen and (max-width: 800px) {
+  .scroll-element {
+    scroll-margin: 10px 0 0 10px;
+  }
+}
+
+.aftertw {
+  visibility: hidden;
+  margin-top: 80px;
+}
+
+.last-section {
+  height: 400px;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: var(--color3);
+  padding-bottom: 20px;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  overflow-y: scroll; 
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
+
+.content {
+  margin-left: 320px;
+  padding: 48px;
+}
+
+.title {
+  padding: 10px;
+  width: auto;
+}
+
+.firstname {
+  font-family: "Kumbh Sans", sans-serif;
+  color: var(--color5);
+  text-shadow: 4px 4px 5px #17252a80;
+  font-size: 400%;
+  margin: 0;
+  width: auto;
+  vertical-align: middle;
+  animation: fadein 3s;
+}
+
+.sectionContainer {
+  background-color: white;
+  border-radius: 50px;
+  padding: 48px;
+}
+.skillsContainer {
+  text-align: center;
+  font-size: 0.7rem;
+}
+
+.skillsGrid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(80px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+  
+}
+.skillsContainer {
+  background-color: #000000;
+}
+.skillsGrid div {
+  background-color: white;
+  padding: 10px;
+  border-radius: 15px;
+  width: 80px;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+
+  border: 1px solid #eee;
+}
+
+.skillsGrid div p {
+  margin-top: 10px;
+  
+}
+
+.skillsGrid LI img {
+  width: 35px;
+  height: 35px;
+}
+
+
+.lastname {
+  font-family: "Kumbh Sans", sans-serif;
+  color: var(--color1);
+  text-shadow: 3px 3px 5px #00000070;
+  font-size: 300%;
+  width: auto;
+  margin: 0;
+  margin-left: 35pt;
+  vertical-align: middle;
+  animation: fadein 5s;
+}
+
+.titlehead {
+  font-family: "Kumbh Sans", sans-serif;
+  color: var(--color5);
+  text-shadow: 4px 4px 2px #17252a80;
+  font-size: 300%;
+  margin: 30;
+  width: auto;
+  vertical-align: middle;
+}
+
+.waves {
+   
+    width: 100%;
+    height: 200px; /* Hauteur des vagues */
+    background-color: transparent; /* Couleur d'arrière-plan des vagues */
+    margin-bottom: -200px; /* Ajustez en fonction de la hauteur des vagues */
+    z-index: -1; /* Placez les vagues en arrière-plan */
+}
+
+

@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Wiam laarabi</title>
+	<link rel="stylesheet" type="text/css" href="styles/sass/styles.scss">
+	<link rel="stylesheet" type="text/css" href="styles/sass/_skills.scss">
+	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="js/media-selection.js"></script>
+	<script type="text/javascript" src="js/console.js"></script>
+	<script type="text/javascript" src="js/projects/projects.js"></script>
+	<script type="text/javascript" src="js/projects/projects-cards-updater.js"></script>
+	<script type="text/javascript" src="js/projects/languages-field.js"></script>
+	<link rel="stylesheet" type="text/css" href="styles/styles.css">
+	<link rel="stylesheet" type="text/css" href="styles/cards.css">
+	<link rel="stylesheet" type="text/css" href="styles/timeline.css">
+	<link rel="stylesheet" type="text/css" href="styles/navbar.css">
+	<link rel="stylesheet" type="text/css" href="styles/console.css">
+	<link rel="stylesheet" type="text/css" href="styles/projects.css">
+	<link rel="icon" href="assets/favicon.ico">
+	<!--Fonts-->
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<nav id="mysidenav" class="sidenav" >
+		<div id="mysidenavcontent" class="sidenavcontent">
+	
+			
+			<hr>
+			<p class="sidebarcitation">"You never fall until you stop trying ."</p>
+			<p class="sidebarauthor">- Albert Einstein</p>
+			<hr>
+			<div class="row">
+				<div class="column">
+					<a href="https://www.linkedin.com/in/laarabi-wiam-655325209/" target="_blank">
+						<img id="linkedin" src="assets/medias/linkedin_selected.png" onMouseOver="unselected(this)"
+							onMouseOut="selected(this)"  class="mediaicon" loading="lazy"> 
+					</a>
+				</div>
+				<div class="column">
+					<a href="https://github.com/Wiapm" target="_blank">
+						<img id="github" src="assets/medias/github_selected.png" onMouseOver="unselected(this)"
+							onMouseOut="selected(this)"  class="mediaicon" loading="lazy">
+					</a>
+				</div>
+				<div class="column">
+					<a href="" target="_blank">
+						<img id="facebook" src="assets/medias/facebook_selected.png" onMouseOver="unselected(this)"
+							onMouseOut="selected(this)"  class="mediaicon" loading="lazy">
+					</a>
+				</div>
+				<div class="column">
+					<a href="" target="_blank">
+						<img id="instagram" src="assets/medias/instagram_selected.png" onMouseOver="unselected(this)"
+							onMouseOut="selected(this)"  class="mediaicon" loading="lazy">
+					</a>
+				</div>
+			</div>
+
+			<div class="nav_btns">
+				<button id="btn_aboutme" onClick="navscroll(this)">ABOUT ME</button><br>
+				<button id="btn_myskills" onClick="navscroll(this)">MY SKILLS</button><br>
+				<button id="btn_work" onClick="navscroll(this)">EXPERIENCE</button><br>
+				<button id="btn_education" onClick="navscroll(this)">EDUCATION</button><br>
+	
+			</div>
+			
+			
+
+		</div>
+	</nav>
+	<div class="waves">
+		<!-- Insérez ici le code des vagues que vous avez fourni -->
+		<svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+			<defs>
+				<path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 v44h-352z" />
+			</defs>
+			<g class="parallax">
+				<use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7)" />
+				<use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+				<use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+				<use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+			</g>
+		</svg>
+	</div>
+	
+	<div id="mycontent" class="content">
+		<section id="about_me" class="scroll-element">
+			
+		
+			<div class="container">
+				<img id="console" class="console_img" src="assets/console.png" loading="lazy">
+				<div id="typedtext" class="typedtextclass"> </div>
+			</div>
+		</section>
+
+		
+
+
+		 <!-- Skills Section -->
+		 <section id="my_skills" class="aftertw scroll-element">
+
+			<h1 class="titlehead">
+				SKILLS
+			</h1>
+			
+			
+		  
+			<div class="skillsContainer sectionContainer">
+			  <ul class="skillsGrid">
+				  <div >
+					<img src="assets/logo_language/java.svg">
+			
+				  </div>
+				  <div >
+					<img src="assets/logo_language/cc.svg">
+			
+				  </div>
+				
+				
+
+				  <div class="itemContainer">
+					<img src="assets/logo_language/html.svg">
+		
+				  </div>
+
+				  <div class="itemContainer">
+					<img src="assets/logo_language/css.svg">
+				
+				  </div>
+			
+				  <div class="itemContainer">
+					<img src="assets/logo_language/mysql.svg">
+				
+				  </div>
+			
+			
+				  <div class="itemContainer">
+					<img src="assets/logo_language/oracle.svg">
+				
+				  </div>
+
+				  <div class="itemContainer">
+					<img src="assets/logo_language/mongodb.svg">
+					
+				  </div>
+
+				  <div class="itemContainer">
+					<img src="assets/logo_language/firebase.svg">
+					
+				  </div>
+			
+		
+				  <div class="itemContainer">
+					<img src="assets/logo_language/spring.svg">
+					
+				  </div>
+			
+		
+				  <div class="itemContainer">
+					<img src="assets/logo_language/laravel.svg">
+					
+				  </div>
+			
+	
+				  <div class="itemContainer">
+					<img src="assets/logo_language/django.svg">
+				
+				  </div>
+
+		
+				  <div class="itemContainer">
+					<img src="assets/logo_language/docker.svg">
+				
+				  </div>
+		
+	
+				  <div class="itemContainer">
+					<img src="assets/logo_language/github.svg">
+					
+				  </div>
+		
+				  <div class="itemContainer">
+					<img src="assets/logo_language/gitlab.svg">
+				
+				  </div>
+
+				  <div class="itemContainer">
+					<img src="assets/logo_language/azure.svg">
+					
+				  </div>
+		
+				  
+				  <div class="itemContainer">
+					<img src="assets/logo_language/vscode.svg">
+					
+				  </div>
+				  <div class="itemContainer">
+					<img src="assets/logo_language/vmware.svg">
+					
+				  </div>
+				
+				  <div class="itemContainer">
+					<img src="assets/logo_language/linux.svg">
+					
+				  </div>
+				  
+				  <div class="itemContainer">
+					<img src="assets/logo_language/flutter.svg">
+					
+				  </div>
+				  <div class="itemContainer">
+					<img src="assets/logo_language/selenium.svg">
+				
+				  </div>
+				 
+		
+			  </ul>
+			</div>
+		</section>
+  
+
+		<section id="work_experience" class="aftertw scroll-element">
+
+			<h1 class="titlehead">
+				 EXPERIENCE
+			</h1>
+			<div class="we_timeline">
+				<div class="we_container right">
+					<div class="we_date">07/2023 - 09/2023</div>
+					<img class="icon"src="assets/medias/download.jpg" loading="lazy"/>
+					<div class="we_content">
+						<h2>Internship : CNRST- National Research Center
+							Scientific and technical</h2>
+
+						<h3> Comparative study of E2E solutions for functional testing in
+							an Agile context <h3>
+							<h3> Creation of a POC for the chosen solution</h3>
+							<h3>integration of the solution into development environments
+							of the CNRST.<h3/>
+							<h3> tools: Selenium, python/Django, Docker, Git, Github
+							Action, Microsoft Azure DevOps.</h3>
+					</div>
+				</div>
+				<div class="we_container left">
+					<div class="we_date">07/2022 - 09/2022
+					</div>
+					<img class="icon"  src="assets/medias/oq.jpg" loading="lazy"/>
+					<div class="we_content">
+						<h2>Internship : OQ-TECH</h2>
+						<h3>Design and production of a news portal titled
+							under the name Sala Madinati.</h3>
+							<h3>tools: Laravel 7, PHP, HTML5, C3, Javascript, Bootstrap4,
+							git/github</h3>
+					</div>
+				</div>
+				
+			
+			
+				
+				
+				
+			</div>
+		</section>
+		<section id="education" class="aftertw scroll-element">
+			<h1 class="titlehead">
+				EDUCATION
+			</h1>
+			<div class="we_timeline">
+				<div class="we_container left">
+					<div class="we_date_education">2023 - Now</div>
+					<img class="icon"  src="assets/medias/cote.png" loading="lazy"/>
+					<div class="we_content">
+						<h2>Université Côte d'Azur</h2>
+						
+					</div>
+				</div>
+				<div class="we_container right">
+					<div class="we_date_education">2019 - 2024</div>
+					<img class="icon"src="assets/medias/emsi.png" loading="lazy"/>
+					<div class="we_content">
+						<h2>École Marocaine des Sciences de l'Ingénieur</h2>
+						
+					</div>
+				</div>
+			</div>
+			
+		</section>
+
+
+		
+		<div class="waves">
+			<!-- Insérez ici le code des vagues que vous avez fourni -->
+			<svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+				<defs>
+					<path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 v44h-352z" />
+				</defs>
+				<g class="parallax">
+					<use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7)" />
+					<use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+					<use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+					<use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+				</g>
+			</svg>
+		</div>
+		
+		
+	
+	</div>	
+</body>
+
+</html>
